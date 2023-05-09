@@ -1,0 +1,40 @@
+.HandwrittenText {
+    /*/
+    outline: 1px dotted green;
+    /**/
+
+    height: 1em;
+
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    grid-template: '🟦';
+}
+
+.HandwrittenText svg.primaryImage {
+    /*/
+    outline: 1px dotted green;
+    /**/
+
+    grid-area: 🟦;
+
+    /*object-fit: 'cover';*/
+    width: 100vw;
+    height: 3em;
+
+    transform: translate(0, calc(-50% + 0.3em));
+}
+
+.HandwrittenText span.textFallback {
+    /*/
+    outline: 1px dotted green;
+    /**/
+
+    grid-area: 🟦;
+    color: rgba(0, 0, 0, 0%);
+
+    font-family: monospace;
+    height: 3em;
+    transform: translate(0, 0.2em);
+    white-space: nowrap;
+}
