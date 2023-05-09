@@ -8,7 +8,7 @@
         },
         {
             "name": "🌎 Expose",
-            "command": "npx lt --port 4444 --subdomain wizard",
+            "command": "npx lt --port 4344 --subdomain wizard",
             "onlySingle": true,
             "focus": true
         },
@@ -54,7 +54,7 @@
             "focus": true
         },
         {
-            "name": "👊 Kill all 4444",
+            "name": "👊 Kill all 4344",
             "commands": ["npx kill-port 3000 "],
             "onlySingle": true,
             "focus": true

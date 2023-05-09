@@ -26,14 +26,14 @@ export function TechnicalInfo() {
             <div className={styles.field}>
                 <span>Repository:</span>
                 <span>
-                    <a href="https://github.com/hejny/aiai/">https://github.com/hejny/aiai/</a>
+                    <a href="https://github.com/hejny/ainautes/">https://github.com/hejny/ainautes/</a>
                 </span>
             </div>
 
             <div className={styles.field}>
                 <span>Commit:</span>
                 <span>
-                    <a href={`https://github.com/hejny/aiai/commit/${VERCEL_GIT_COMMIT_SHA}`}>
+                    <a href={`https://github.com/hejny/ainautes/commit/${VERCEL_GIT_COMMIT_SHA}`}>
                         {VERCEL_GIT_COMMIT_MESSAGE}
                     </a>
                 </span>

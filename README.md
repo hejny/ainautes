@@ -1,3 +1,3 @@
-# 👾 AiAi
+# 👨‍🚀 Ainautes
 
-We are the ...
+We are the Ainautes

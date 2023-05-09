@@ -1,5 +1,5 @@
 {
-    "name": "aiai",
+    "name": "ainautes",
     "version": "0.53.1",
     "private": false,
     "license": "SEE LICENSE IN LICENSE",
@@ -8,10 +8,10 @@
     "homepage": "https://ai.ai.hejny.org/",
     "repository": {
         "type": "git",
-        "url": "https://github.com/hejny/aiai"
+        "url": "https://github.com/hejny/ainautes"
     },
     "scripts": {
-        "dev": "npx chokidar \"locales/**/*.yml\" -c \"npx kill-port 4444 && next dev -p 4444\" --initial --debounce 500",
+        "dev": "npx chokidar \"locales/**/*.yml\" -c \"npx kill-port 4344 && next dev -p 4344\" --initial --debounce 500",
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
@@ -25,7 +25,7 @@
         "prettier": "prettier --config .prettierrc --ignore-unknown --write \"{pages,public,styles}/**/*\"",
         "prettier-commit": "git diff --exit-code && npm run prettier && git add . && git commit --allow-empty -m \"🧹 Prettier\"",
         "preversion": "git pull && npm run prettier-commit && npm run lint && npm test",
-        "postversion": "git push && git push --tags && echo \"Check the deploy process: https://github.com/hejny/aiai/actions/\""
+        "postversion": "git push && git push --tags && echo \"Check the deploy process: https://github.com/hejny/ainautes/actions/\""
     },
     "dependencies": {
         "@next/font": "13.1.1",
