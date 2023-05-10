@@ -20,5 +20,5 @@ export function useWallpaper(): IWallpaperComponent | null {
     if (Wallpaper) {
         return Wallpaper;
     }
-    return generated_wallpapers.find((wallpaper) => wallpaper.metadata.id === '56f04b34-9209-4d6f-b465-a0682df3286e')!;
+    return generated_wallpapers.find((wallpaper) => wallpaper.metadata.id === '7e9b434d-59bc-4d69-a486-d7401d94f5e0')!;
 }
