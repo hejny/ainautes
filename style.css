@@ -1,4 +1,5 @@
 html {
+    font-family: __Oswald_a1715a,__Oswald_Fallback_a1715a;
     color-scheme: dark;
     image-rendering: smooth;
     scroll-behavior: smooth;
@@ -378,6 +379,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .Footer_FooterSection__rPTMK {
+    /* TODO: !!!  Apply here Oswald OR other font (and then cleanup Oswald from here) */
     width: 100%;
     height: 100%;
     display: flex;
