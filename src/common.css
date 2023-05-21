@@ -236,13 +236,26 @@ h1,h2,h3,h4,h5,h6,p {
     border-bottom: 1px solid var(--palette-2)
 }
 
+.Article_Article__fAEyv h3 {
+    /* TODO: !!! Transfer to AIAI */
+    margin-top: 40px;
+    border-bottom: 1px solid var(--palette-2)
+}
+
+
+
 .Article_Article__fAEyv ol,.Article_Article__fAEyv ul {
     text-align: left
 }
 
 .Article_Article__fAEyv hr {
+      /* TODO: !!! Transfer to AIAI */
     margin-top: 50px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+
+    outline: none;
+    border: none;
+    border-top: 2px solid var(--palette-2);
 }
 
 .Article_Article__fAEyv blockquote {
