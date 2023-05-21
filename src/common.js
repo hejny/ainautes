@@ -24,6 +24,9 @@ function shuffleElements() {
     }
 }
 
+shuffleElements();
+
+/*
 document.addEventListener('load', () => {
     console.log('load event fired');
     shuffleElements();
@@ -33,3 +36,4 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded event fired');
     shuffleElements();
 });
+*/
