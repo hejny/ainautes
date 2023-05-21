@@ -10,6 +10,7 @@ Steps from Aiai page to exported page:
 - Extract style for fonts
 - Extract style config
 - Cleanup style config
+- Cleanup next relicts (like /_next/static/...)
 - Go through all the unused css vars and remove them
 - Go through all the unused fonts vars and remove them
 - Go through all the unused classes vars and remove them
@@ -19,6 +20,7 @@ Steps from Aiai page to exported page:
 - Upscale wallpaper (manually)
 - Upscaled wallpaper to srcset
 - Add creator metadata + signature in Footer + README.md
+- Add <meta name="theme-color" content="..." />
 - Add CNAME (according to export domain)
 - Check all the links
 - Make favicon

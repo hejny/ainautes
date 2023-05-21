@@ -22,6 +22,6 @@ function shuffleElements() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("load", () => {
   shuffleElements();
 });
