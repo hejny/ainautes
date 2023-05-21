@@ -342,7 +342,7 @@ h1,h2,h3,h4,h5,h6,p {
     grid-column: 1/span 1;
     grid-row: 1/span 1;
     pointer-events: none;
-    background: linear-gradient(to bottom,var(--palette-0),rgba(var(--palette-2-triplet),.3)),url(/patterns/simple/grey.png)
+    background: linear-gradient(to bottom,var(--palette-0),rgba(var(--palette-2-triplet),.3)),url(/images/patterns/simple/grey.png)
 }
 
 .Section_section__FuI7l {
