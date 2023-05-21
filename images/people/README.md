@@ -1,7 +1,7 @@
 ## ✂ Crop background
 
 -   https://purephotos.app/
--   https://www.erase.bg/upload
+-   https://www.erase.bg/upload <- Best one
 -   https://backgroundcut.co/ _(limited by credits)_
 
 Self-hosted:

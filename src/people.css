@@ -47,7 +47,9 @@
     height: 100%;
     border-radius: 50px;
     background-image: radial-gradient(circle at center, var(--palette-4) 0,#000 120%);
-    object-fit: cover
+    object-fit: cover;
+    object-position: 50% 5%;
+    image-rendering: crisp-edges /* <- !!! Fix aliasing */;
 }
 
 .Item_item__ob5FR .Item_overlay__wLKuc {
