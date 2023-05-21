@@ -1,14 +1,27 @@
 function shuffleElements() {
-    const shuffleElements = document.querySelectorAll('.shuffle');
-    shuffleElements.forEach((element) => {
-        const subElements = element.getElementsByClassName('item');
-        for (let i = subElements.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            element.appendChild(subElements[i]);
-            element.insertBefore(subElements[j], subElements[i]);
-        }
-    });
+  const containers = Array.from(document.querySelectorAll(".shuffle"));
+  console.log(containers);
+
+  for (const container of containers) {
+
+
+
+    const items = Array.from(container.childNodes).filter((item)=>item instanceof HTMLElement).filter((item)=>!item.classList.contains("no-shuffle"));
+
+    for (const item of items) {
+        container.removeChild(item);
+    }
+
+    const shuffledItems = [...items].sort(() => Math.random() - 0.5);
+
+    for (const item of shuffledItems) {
+        container.prepend(item);
+        // TODO: Position of no-shuffle is not preserved in true sence, it is just working for our specific case
+    }
+   
+  }
 }
 
-// Call the shuffleElements function to shuffle the sub-elements initially
-shuffleElements();
+document.addEventListener("DOMContentLoaded", () => {
+  shuffleElements();
+});
