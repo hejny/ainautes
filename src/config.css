@@ -5,9 +5,8 @@
     --footer-text-color: #c0c0c0;
     --footer-background: linear-gradient(to bottom, #1f172c, #140c2967), url(/images/patterns/simple/grey.png);
 
-    
-    --palette-0: #351720;
-    --palette-0-triplet: 53, 23, 32;
+    --palette-0: #270e1b;
+    --palette-0-triplet: 39, 14, 27;
     --palette-1: #ffffff;
     --palette-1-triplet: 255, 255, 255;
     --palette-2: #5c62b4;
