@@ -1,5 +1,5 @@
 .Article {
-    text-align: left;
+    text-align: center;
 }
 .Article h1,
 .Article h2,
@@ -7,13 +7,18 @@
 .Article h4,
 .Article h5,
 .Article h6 {
-    display: block;
-    width: 100%;
+    display: inline-block;
     text-align: center;
 }
+
+.Article h1,
+.Article h2 {
+    font-weight: bold;
+}
+
 .Article h1 {
     line-height: 110%;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     font-size: 65px;
 }
 @media only screen and (max-width: 600px) {
@@ -26,10 +31,25 @@
         font-size: 38px;
     }
 }
+
 .Article h2 {
+    font-size: 29px;
     margin-top: 60px;
-    text-decoration: underline;
+    padding: 0;
+    border-bottom: 2px solid var(--palette-2);
 }
+
+.Article h3 {
+    font-size: 25px;
+    margin-top: 40px;
+    padding: 0;
+    border-bottom: 1.5px solid var(--palette-2);
+}
+
+.Article p {
+    text-align: left;
+}
+
 .Article ol,
 .Article ul {
     margin-left: 50px;
@@ -44,17 +64,26 @@
 .Article hr {
     margin-top: 50px;
     margin-bottom: 50px;
-    border: 2px solid(--palette-2);
+    background-color: var(--palette-2);
+    height: 2px;
+    border: none;
+    outline: none;
 }
 .Article blockquote,
 .Article iframe {
     display: block;
     margin: 20px;
 }
+
+.Article blockquote p {
+    text-align: center;
+}
 .Article blockquote {
     font-size: 1.2em;
     border: 2px solid var(--palette-2);
     padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .Article img {
     max-width: 100%;
@@ -64,3 +93,10 @@
     width: 100%;
     aspect-ratio: 3/2;
 }
+
+/*
+
+TODO: !!! Transfer back changes to AiAi
+
+
+*/

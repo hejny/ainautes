@@ -1404,7 +1404,7 @@ p {
     grid-row: 1 / span 1;
     pointer-events: none;
     background: linear-gradient(to bottom, var(--palette-0), rgba(var(--palette-2-triplet), 0.3)),
-        url(/patterns/simple/stripes-grey.png);
+        url(/images/patterns/simple/stripes-grey.png);
 }
 
 .Section_section__FuI7l {
@@ -1413,13 +1413,7 @@ p {
 .Section_section__FuI7l:last-child {
     margin-bottom: 50px;
 }
-.Section_section__FuI7l > div > p {
-    display: block;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-}
+
 .Section_section__FuI7l > a {
     color: inherit;
     text-decoration: inherit;
