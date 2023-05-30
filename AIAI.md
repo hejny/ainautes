@@ -23,6 +23,8 @@ _(That I have done manually for Ainautes)_
 -   Upscaled wallpaper to srcset
 -   Add creator metadata + signature in Footer + README.md
 -   Add <meta name="theme-color" content="..." />
+-   Add <!-------------[ Content: ]---------------> ([ /Content ]) around content
+-   Remove empty <p></p> paragraphs
 -   Add CNAME (according to export domain)
 -   Check all the links
 -   Make favicon
