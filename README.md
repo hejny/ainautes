@@ -19,7 +19,7 @@ By collaborating closely with your teams, we foster a deep understanding of your
 Our team's diverse backgrounds and extensive domain knowledge enable us to tackle challenges across various industries, from finance and healthcare to retail and manufacturing. We stay abreast of the latest advancements in AI research, constantly exploring emerging technologies and methodologies, so that you can confidently embrace the opportunities presented by the rapidly evolving AI landscape.
 
 -   [**Tomas Studenik**](https://www.tomas-studenik.com/) - Startup Innovator
--   [**Pavol Hejny**](https://www.pavolhejny.com/) - Coder & Hacker
+-   [**Pavol Hejny**](https://www.pavolhejny.com/) - Developer & Hacker
 -   [**Simon Kos**](https://svetlodat.eu) - Prompt Engineer
 -   [**Rudolf Rosa**](https://ufal.mff.cuni.cz/rudolf-rosa) - AI Researcher & ML Expert
 -   [**Frantisek Vasek**](https://www.linkedin.com/in/frantavasek) - Business Consultant
