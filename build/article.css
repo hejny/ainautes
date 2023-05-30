@@ -103,6 +103,7 @@
     display: inline-block;
     border: 1px solid rgba(var(--palette-1-triplet), 0.8);
     background-color: rgba(var(--palette-2-triplet), 0.8);
+    box-shadow: 0 0 20px rgba(var(--palette-4-triplet), 0.5);
     color: rgba(var(--palette-1-triplet), 0.8);
     border-radius: 6px;
     padding: 7px 18px;
@@ -110,10 +111,10 @@
     cursor: pointer;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
+    font-size: 25px;
 }
 .Article .button:hover {
-    filter: hue-rotate(30deg);
-    box-shadow: 0 0 10px #0000004d;
+    filter: hue-rotate(90deg);
 }
 .Article .button.primary {
     color: var(--palette-3);
