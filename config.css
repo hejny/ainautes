@@ -1,10 +1,9 @@
-:root {
-    --normal-text-color: #ffffffcc;
-    --highlighted-text-color: #ffffff;
-    --highlighted-text-shaddow: 0 0 30px #000000;
-    --footer-text-color: #c0c0c0;
-    --footer-background: linear-gradient(to bottom, #1f172c, #140c2967), url(/images/patterns/simple/grey.png);
+/**
+ * Note: This is the config style, it is used to configure the whole page.
+ */
 
+:root {
+    /* 🎨 Note: This is a color palette computed by colorful-192x108-16bit-v14palette algorithm */
     --palette-0: #270e1b;
     --palette-0-triplet: 39, 14, 27;
     --palette-1: #ffffff;
