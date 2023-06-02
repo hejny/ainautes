@@ -80,9 +80,6 @@
     margin: 20px;
 }
 
-.Article blockquote p {
-    text-align: center;
-}
 .Article blockquote {
     font-size: 1.2em;
     border: 2px solid var(--palette-2);
@@ -90,6 +87,15 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.Article blockquote p {
+    text-align: center;
+}
+
+.Article blockquote hr {
+    margin: 10px;
+}
+
 .Article img {
     max-width: 100%;
     height: auto;
