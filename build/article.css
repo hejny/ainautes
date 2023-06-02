@@ -119,12 +119,74 @@
     transition: all 0.2s ease-in-out;
     font-size: 25px;
 }
-.Article .button:hover {
-    filter: hue-rotate(90deg);
-}
+
 .Article .button.primary {
     color: var(--palette-3);
     border: 1px solid var(--palette-3);
+}
+
+.Article .button:hover {
+    animation-name: rockerBurn;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.emojiAsChar {
+    display: inline-block;
+}
+
+.Article .button:hover .emojiAsChar {
+    animation-name: rocketFly;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rockerBurn {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(180deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes rocketFly {
+    /* Note: Rocket will firstly shake and then fly to space */
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    50% {
+        transform: translate(0, 0) rotate(5deg);
+    }
+    /*
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    2% {
+        transform: translate(0, 0) rotate(5deg);
+    }
+    4% {
+        transform: translate(0, 0) rotate(-5deg);
+    }
+    6% {
+        transform: translate(0, 0) rotate(5deg);
+    }
+    8% {
+        transform: translate(0, 0) rotate(-5deg);
+    }
+    
+    10% {
+        transform: translate(0, 0) rotate(5deg);
+    }
+    100% {
+        transform: translate(1500px, -2000px) rotate(0deg);
+    }
+    */
 }
 
 /*
