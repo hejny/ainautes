@@ -17,12 +17,12 @@
             content="Meet the AInautes, your trusted crew to guide your corporate ship through the turbulent, unpredictable, novel and amazing seas of artificial intelligence. We are a leading European generative AI consultancy, composed of a dynamic team of seasoned hackers, artificial intelligence geeks, and dedicated researchers, alongside startup innovators, industry experts, and experienced consultancy professionals."
         />
         <meta property="og:image" content="https://ainautes.com/images/wallpapers/ainautes-1.jpg" />
-        <meta property="og:url" content="https://ai.hejny.org/showcase/caadd184-364b-4ec7-a0cc-436d0e3b5330" />
+        <meta property="og:url" content="https://app.ai.hejny.org/showcase/caadd184-364b-4ec7-a0cc-436d0e3b5330" />
         <meta property="og:type" content="website" />
         <meta property="fb:page_id" content="hejny" />
         <meta property="fb:app_id" content="179993545901102" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://ai.hejny.org/showcase/caadd184-364b-4ec7-a0cc-436d0e3b5330" />
+        <meta property="twitter:url" content="https://app.ai.hejny.org/showcase/caadd184-364b-4ec7-a0cc-436d0e3b5330" />
         <meta property="twitter:title" content="AI*nautes" />
         <meta
             property="twitter:description"
@@ -33,6 +33,7 @@
         <link rel="stylesheet" href="config.css" />
         <link rel="stylesheet" href="build/common.css" />
         <link rel="stylesheet" href="/build/article.css" />
+        <link rel="stylesheet" href="build/menu.css" />
         <link rel="stylesheet" href="/src/people.css" />
 
         <script src="/src/common.js" async defer></script>
@@ -86,10 +87,42 @@
         <!-------------[ SmartsUpp: ]--------------->
     </head>
     <body>
+        <!-------------[ Menu: ]--------------->
+
+        <div class="Menu_Menu__HK_sB">
+            <div class="Menu_MenuBar__BXd90">
+                <div class="Menu_bar__kOpdk Menu_bar1__FFq3D"></div>
+                <div class="Menu_bar__kOpdk Menu_bar2__dlqrb"></div>
+                <div class="Menu_bar__kOpdk Menu_bar3__qDuvi"></div>
+            </div>
+            <nav class="Menu_MenuContent__ZcI37">
+                <ul>
+                    <li><a href="https://ai.hejny.org/">Home</a></li>
+                    <li class="Menu_featured__6_rbw">
+                        <a href="/showcase/caadd184-364b-4ec7-a0cc-436d0e3b5330?modal=export">Get the web</a>
+                    </li>
+                    <li><a href="/showcase/caadd184-364b-4ec7-a0cc-436d0e3b5330?modal=edit">Edit</a></li>
+                    <li><a href="https://ai.hejny.org/pricing">Pricing</a></li>
+                    <li><a href="/?home=/">Gallery</a></li>
+                    <li><a href="https://ai.hejny.org/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="Menu_MenuBgWrapper__yceuG"><div class="Menu_MenuBg__MZGx2"></div></div>
+        <script>
+            document.getElementsByClassName('Menu_MenuBar__BXd90')[0].addEventListener('click', function () {
+                console.log('1');
+                document.getElementsByClassName('Menu_MenuBar__BXd90')[0].classList.toggle('Menu_open__HErSU');
+                document.getElementsByClassName('Menu_MenuContent__ZcI37')[0].classList.toggle('Menu_open__HErSU');
+                document.getElementsByClassName('Menu_MenuBg__MZGx2')[0].classList.toggle('Menu_open__HErSU');
+            });
+        </script>
+        <!-------------[ /Menu ]--------------->
+
         <div class="ShowcaseContent_page__J4mXA">
-            <div style="z-index: 20; position: absolute; top: 0; right: 0">
+            <div style="z-index: 20; position: absolute; top: 0; left: 0">
                 <a href="#"
-                    ><div style="margin-right: 5px">← Created by <b>AI</b></div></a
+                    ><div style="margin-left: 5px">Created by <b>AI</b>→</div></a
                 >
             </div>
 
@@ -414,7 +447,6 @@
                         <!-- TODO: !! Make links active -->
                         <!-- TODO: !! Contact section -->
                         <!-- TODO: !! Unite wording style of descriptions -->
-    
 
                         <h2 id="lets-set-sail-together">Let's set sail together</h2>
                         <p>
@@ -498,7 +530,7 @@
                         <li>© 2023</li>
                         <li><a href="#top">Home</a></li>
                         <li>
-                            <a href="https://ai.hejny.org/showcase/caadd184-364b-4ec7-a0cc-436d0e3b5330"
+                            <a href="https://app.ai.hejny.org/showcase/caadd184-364b-4ec7-a0cc-436d0e3b5330"
                                 >AI web<!-- <- TODO: !!! Figure out better name --></a
                             >
                         </li>
