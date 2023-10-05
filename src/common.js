@@ -1,12 +1,13 @@
-console.log('common.js loaded');
-
-// !!! Remove logging
-
 function shuffleElements() {
     const containers = Array.from(document.querySelectorAll('.shuffle'));
-    console.log(containers);
 
     for (const container of containers) {
+        if (container.dataset.shuffled) {
+            continue;
+        }
+
+        console.info('🎲 Shuffling', container);
+
         const items = Array.from(container.childNodes)
             .filter((item) => item instanceof HTMLElement)
             .filter((item) => !item.classList.contains('no-shuffle'));
@@ -21,19 +22,21 @@ function shuffleElements() {
             container.prepend(item);
             // TODO: Position of no-shuffle is not preserved in true sence, it is just working for our specific case
         }
+
+        container.dataset.shuffled = true;
     }
 }
 
 shuffleElements();
 
-/*
 document.addEventListener('load', () => {
-    console.log('load event fired');
     shuffleElements();
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOMContentLoaded event fired');
     shuffleElements();
 });
-*/
+
+setTimeout(() => {
+    shuffleElements();
+}, 1000);
