@@ -9,13 +9,11 @@
     outline: 1px dotted rgb(42, 243, 119);
     /**/
 
-    aspect-ratio: 2/1;
+    aspect-ratio: 3/1;
 
     display: flex;
     justify-content: center;
     align-items: center;
-
-    padding: 20px;
 }
 
 /* TODO: Make here same paralax effect */
@@ -26,8 +24,9 @@
     /**/
 
     object-fit: contain;
-    width: 100%;
-    max-height: 70%;
+    width: 120px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .Projects {
@@ -39,7 +38,6 @@
     justify-content: center;
     align-items: center;
 
-    row-gap: 40px;
     margin-bottom: 30px;
 }
 
