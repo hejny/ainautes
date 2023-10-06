@@ -657,8 +657,6 @@
     caret-color: transparent !important;
 }
 
-/* https://ai.hejny.org/_next/static/css/0d3190140b8c9433.css */
-
 /*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 */
@@ -1369,8 +1367,6 @@ p {
 #root {
     isolation: isolate;
 }
-
-/* https://ai.hejny.org/_next/static/css/b2055752a02defbc.css */
 
 .HeaderWallpaper_HeaderWallpaper__XY4hw {
     width: 100%;
@@ -2796,4 +2792,3 @@ body[data-color-mode*='light'] {
         border-radius: 0;
     }
 }
-
