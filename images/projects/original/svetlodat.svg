@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
-	<style>
-		text {
-		font-family: "Segoe UI", sans-serif;
-		font-weight: 300;
-		font-size: 36px;
-		fill: white;
-		}
-	</style>
-	<text x="0" y="45">SVĚTLODAT</text>
-</svg>
-  
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60"><style>text{font-family:&quot;Segoe UI&quot;,sans-serif;font-weight:300;font-size:36px;fill:#fff}</style><text x="0" y="45">SVĚTLODAT</text></svg>
